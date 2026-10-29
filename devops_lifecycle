@@ -1,0 +1,50 @@
+DevOps Life Cycle 
+DevOps is a combination of Development and Operations. It helps teams develop, test, release, deploy, and maintain software faster and more reliably.
+1. Plan Stage
+Tools: Jira, Azure Dashboards
+- Jira: A project management tool used to create tasks, assign work to team members, track progress, and manage bugs.
+- Azure Dashboards: Displays project information, work progress, and important metrics in one place. Azure Boards is commonly used to manage tasks and work items.
+Example: A team uses Jira to assign tasks for developing a new shopping application.
+2. Code Stage
+Tools: SCM, Git, GitHub
+- SCM (Source Code Management): Helps track and manage changes made to source code.
+- Git: A version control system that records code changes and allows developers to work with different branches.
+- GitHub: An online platform for storing Git repositories, collaborating on code, and reviewing changes.
+Example: Two developers work on different features using Git branches and share their code through GitHub.
+
+3. Build Stage
+Tools: Maven, Gradle
+- Maven: A Java build automation tool used to compile code, manage dependencies, run tests, and package applications.
+- Gradle: A build automation tool that manages dependencies and builds applications using configurable tasks.
+Example: Maven compiles a Java application and packages it into a JAR file.
+4. Test Stage
+Tools: JUnit, Selenium
+- JUnit: A Java testing framework used to test individual units of code, such as methods and classes.
+- Selenium: An automation tool used to test web applications by controlling browsers and simulating user actions.
+Example: JUnit checks whether a Java calculation method returns the correct result. Selenium checks whether a website's login page works correctly.
+5. Release Stage
+Tools: Jenkins, GitHub Actions
+- Jenkins: An automation server used to create pipelines for building, testing, and preparing software releases.
+- GitHub Actions: A GitHub feature used to automate workflows, such as running tests when code is pushed.
+Example: After developers push code, Jenkins or GitHub Actions automatically runs the build and tests.
+6. Deploy Stage
+Tools: Docker, Kubernetes
+- Docker: Packages an application and its dependencies into a container so it can run consistently across environments.
+- Kubernetes: Manages containers, including starting them, scaling applications, and restarting failed containers when configured to do so.
+Example: Docker packages a web application into a container, and Kubernetes manages the containers running in production.
+7. Operate Stage
+Tool: Ansible
+
+- Ansible: An automation tool used to configure servers, install software, and perform repetitive infrastructure management tasks.
+
+Example: Ansible installs the required software and configures multiple servers automatically.
+
+
+
+
+8. Monitor Stage
+Tool: Grafana
+
+- Grafana: A monitoring and visualization platform that displays metrics in dashboards and helps teams understand application and infrastructure performance. It can use data sources such as Prometheus.
+
+Example: Grafana displays CPU usage, memory usage, and server response time. If a problem occurs, the team can investigate it and configure alerts.
